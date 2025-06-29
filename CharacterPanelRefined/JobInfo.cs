@@ -213,7 +213,7 @@ public static class JobInfo {
 }
 
 public record AlternateGcd(int Gcd, string Name) {
-    public static readonly AlternateGcd FireIV = new(280, Localization.Panel_Fire_IV_GCD);
+    public static readonly AlternateGcd FireIV = new(200, Localization.Panel_Fire_IV_GCD);
     public static readonly AlternateGcd RubyRite = new(300, Localization.Panel_RubyRite_GCD);
     public static readonly AlternateGcd BlizzardInCyan = new(330, Localization.Panel_BlizzardInCyan_GCD);
 }
